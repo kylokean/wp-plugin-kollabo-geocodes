@@ -4,7 +4,7 @@ Plugin Name: Kollabo Geocodes
 Description: Replacing Google location codes with location names
 Version: 1.0
 Author: Kylokean
-Author URI: http://aletheme.com
+Author URI: https://kylokean.com
 License: GPLv2 or later
 Text Domain: kollabogeolocation
 */
