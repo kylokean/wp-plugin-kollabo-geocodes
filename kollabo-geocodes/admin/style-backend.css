@@ -1,0 +1,163 @@
+/*.kollabo-geocodes_page_csvupload {
+    background: #ffefef;
+}*/
+
+.table_row {
+    display: flex;
+    width: 300px;
+}
+
+
+.table_cell {
+    border: 1px solid #b5b5b5;
+}
+
+
+.table_cell-id {
+    min-width: 100px;
+    padding-left: 20px;
+}
+
+.table_cell-txt {
+    text-align: left;
+    width: 100%;
+    padding-left: 20px;
+}
+
+.kollabo_geotable {
+    max-width: 1000px;
+    height: 400px;
+    overflow-y: scroll;
+    border: 4px solid #9b9b9bba;
+    padding: 30px 20px 0px;
+    border-radius: 8px;
+}
+
+
+.kollabo_geotable-wrap span {
+    font-size: 18px;
+    padding-bottom: 10px !important;
+    display: inherit;
+    text-transform: uppercase;
+    color: #454545;
+    font-weight: 500;
+}
+
+.kollabo_geotable-wrap {
+    margin-top: 50px;
+}
+
+.kollabo-geocodes_page_csvupload #submit,
+.kollabo-geocodes_page_csvupload #editvaluedb {
+    background: #46a946;
+    color: white;
+    border: none;
+    width: 200px;
+}
+
+.kollabo-geocodes_page_csvupload #submit:hover,
+.kollabo-geocodes_page_csvupload #editvaluedb:hover {
+    background: #227e22;
+}
+
+.kollabo-geocodes_page_csvupload #cleardb {
+    background: #d52828;
+    color: white;
+    border: none;
+    width: 200px;
+    text-transform: uppercase;
+}
+
+.kollabo-geocodes_page_csvupload #deletevaluedb {
+    background: #d52828;
+    color: white;
+    border: none;
+    width: 200px;
+}
+
+.kollabo-geocodes_page_csvupload #cleardb:hover,
+.kollabo-geocodes_page_csvupload #deletevaluedb:hover {
+    background: #9b1818;
+}
+
+.kollabo-geocodes_page_csvupload h2 {
+    padding: 0 !important;
+    margin-top: 0;
+    text-transform: uppercase;
+}
+
+/* Mobile Optimisation */
+
+@media (min-width: 600px) {
+    .kollabo_geotable {
+    column-count: 1;
+}
+
+}
+
+
+@media (min-width: 850px) {
+    .kollabo_geotable {
+    column-count: 2;
+}
+
+}
+
+
+@media (min-width: 1200px) {
+    .kollabo_geotable {
+    column-count: 3;
+}
+
+}
+
+
+
+.db_clear_msg,
+.db_edit_msg {
+    font-size: 1.3em;
+    font-weight: 600;
+    padding-top: 10px;
+    color: green;
+}
+
+.edit_values_form,
+.clear_values_form,
+.upload_csv_form {
+    border: 2px solid #6a8dd4ba;
+    padding: 20px;
+    max-width: 1000px;
+    margin: 50px 0;
+}
+
+.kollabo-geocodes_page_csvupload form {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.kollabo-geocodes_page_csvupload button,
+.kollabo-geocodes_page_csvupload input#editvaluedb, 
+.kollabo-geocodes_page_csvupload input#deletevaluedb  {
+    margin-left: 10px !important;
+}
+
+.post_type_allpages {
+    width: 1000px;
+    margin: 20px 0;
+    padding: 0 20px 20px;
+    columns: 3;
+}
+
+.select_pages_admin td {
+    border: 2px solid #6a8dd4ba;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 0 20px;
+}
+
+.post_type_singlepage {
+    margin: 10px;
+}
